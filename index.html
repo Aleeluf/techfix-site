@@ -57,9 +57,10 @@
   <div class="wrap about">
     <div><span class="kicker">A TECHFIX</span><h2>Uma linha ampla para racks e ambientes de infraestrutura.</h2></div>
     <div>
-  <p>A TechFix oferece uma linha de acessórios para racks e infraestrutura, com soluções para montagem, organização, proteção e acabamento.</p>
-  <p>Encontre o produto que procura, consulte as opções disponíveis e fale diretamente com nossa equipe para solicitar uma cotação.</p>
+      <p>A TechFix oferece uma linha de acessórios para racks e infraestrutura, com soluções para montagem, organização, proteção e acabamento.</p>
+      <p>Encontre o produto que procura, consulte as opções disponíveis e fale diretamente com nossa equipe para solicitar uma cotação.</p>
     </div>
+  </div>
 </section>
 
 <section id="contato" class="contact">
@@ -72,17 +73,77 @@
   </div>
 </section>
 </main>
+
 <footer><div class="wrap footer"><div class="logo-text"><img src="assets/logo.jpg" alt="TechFix"></div><span>© <span id="year"></span> TechFix</span></div></footer>
+
 <script>
-const products = [{"slug": "fecho-lingueta-fenda-20mm", "title": "Fecho Lingueta Fenda 20mm", "category": "Fechos", "page": "2", "img": "assets/produtos/page-2.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20fecho%20lingueta%20fenda%2020mm."}, {"slug": "fecho-lingueta-fenda-25mm", "title": "Fecho Lingueta Fenda 25mm", "category": "Fechos", "page": "3", "img": "assets/produtos/page-3.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20fecho%20lingueta%20fenda%2025mm."}, {"slug": "fecho-regulavel-poliamida-10-28", "title": "Fecho Lingueta Regulável em Poliamida • Abertura 10–28 mm", "category": "Fechos", "page": "3", "img": "assets/produtos/page-3.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20fecho%20regulavel%20poliamida%2010%2028."}, {"slug": "fecho-regulavel-zamak-10-28", "title": "Fecho Lingueta Regulável em Zamak • Abertura 10–28 mm", "category": "Fechos", "page": "4", "img": "assets/produtos/page-4.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20fecho%20regulavel%20zamak%2010%2028."}, {"slug": "fecho-regulavel-poliamida-11-22", "title": "Fecho Lingueta Regulável em Poliamida • Abertura 11–22 mm", "category": "Fechos", "page": "5", "img": "assets/produtos/page-5.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20fecho%20regulavel%20poliamida%2011%2022."}, {"slug": "dobradica-semi-embutida-zamak", "title": "Dobradiça Semi-Embutida Zamak", "category": "Dobradiças", "page": "6", "img": "assets/produtos/page-6.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20dobradica%20semi%20embutida%20zamak."}, {"slug": "dobradica-semi-embutida-poliamida", "title": "Dobradiça Semi-Embutida em Poliamida", "category": "Dobradiças", "page": "7", "img": "assets/produtos/page-7.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20dobradica%20semi%20embutida%20poliamida."}, {"slug": "calha-tomadas", "title": "Calha de Tomadas", "category": "Energia e Conectividade", "page": "8", "img": "assets/produtos/page-8.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20calha%20tomadas."}, {"slug": "calha-tomadas-iec", "title": "Calha de Tomadas IEC", "category": "Energia e Conectividade", "page": "9", "img": "assets/produtos/page-9.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20calha%20tomadas%20iec."}, {"slug": "calha-tomadas-fusivel", "title": "Calha de Tomadas com Fusível", "category": "Energia e Conectividade", "page": "10", "img": "assets/produtos/page-10.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20calha%20tomadas%20fusivel."}, {"slug": "calha-tomadas-disjuntor", "title": "Calha de Tomadas com Disjuntor", "category": "Energia e Conectividade", "page": "11", "img": "assets/produtos/page-11.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20calha%20tomadas%20disjuntor."}, {"slug": "calha-tomadas-grande", "title": "Calha de Tomadas Grande", "category": "Energia e Conectividade", "page": "12", "img": "assets/produtos/page-12.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20calha%20tomadas%20grande."}, {"slug": "plugues-conectores", "title": "Plugues e Conectores", "category": "Energia e Conectividade", "page": "13", "img": "assets/produtos/page-13.jpeg", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20plugues%20conectores."}, {"slug": "plugues-conectores-2", "title": "Plugues e Conectores • 2P, C15 e C19", "category": "Energia e Conectividade", "page": "16", "img": "assets/produtos/page-16.jpeg", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20plugues%20conectores%202."}, {"slug": "extensao-centopeia", "title": "Extensão Centopeia", "category": "Energia e Conectividade", "page": "15", "img": "assets/produtos/page-15.jpeg", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20extensao%20centopeia."}, {"slug": "bandeja-central", "title": "Bandeja Central", "category": "Bandejas e Organização", "page": "17", "img": "assets/produtos/page-17.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20bandeja%20central."}, {"slug": "bandeja-frontal", "title": "Bandeja Frontal", "category": "Bandejas e Organização", "page": "18", "img": "assets/produtos/page-18.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20bandeja%20frontal."}, {"slug": "bandeja-fixa", "title": "Bandeja Fixa", "category": "Bandejas e Organização", "page": "19", "img": "assets/produtos/page-19.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20bandeja%20fixa."}, {"slug": "bandeja-movel", "title": "Bandeja Móvel", "category": "Bandejas e Organização", "page": "20", "img": "assets/produtos/page-20.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20bandeja%20movel."}, {"slug": "frente-falsa", "title": "Frente Falsa", "category": "Bandejas e Organização", "page": "20", "img": "assets/produtos/page-20.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20frente%20falsa."}, {"slug": "guia-cabo-tampa", "title": "Guia Cabo com Tampa", "category": "Guias e Patch Panel", "page": "21", "img": "assets/produtos/page-21.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20guia%20cabo%20tampa."}, {"slug": "guia-cabo-2u-19", "title": "Guia Cabo 2U x 19", "category": "Guias e Patch Panel", "page": "22", "img": "assets/produtos/page-22.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20guia%20cabo%202u%2019."}, {"slug": "guia-cabo-aberto", "title": "Guia Cabo Aberto", "category": "Guias e Patch Panel", "page": "23", "img": "assets/produtos/page-23.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20guia%20cabo%20aberto."}, {"slug": "guia-cabo-1u-19", "title": "Guia Cabo 1U x 19", "category": "Guias e Patch Panel", "page": "24", "img": "assets/produtos/page-24.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20guia%20cabo%201u%2019."}, {"slug": "suporte-patch-panel", "title": "Suporte Patch Panel", "category": "Guias e Patch Panel", "page": "25", "img": "assets/produtos/page-25.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20suporte%20patch%20panel."}, {"slug": "clip-canoa", "title": "Clip Canoa 4 mm", "category": "Fixação", "page": "26", "img": "assets/produtos/page-26.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20clip%20canoa."}, {"slug": "kit-2-ventiladores", "title": "Kit com 2 Ventiladores", "category": "Ventilação", "page": "27", "img": "assets/produtos/page-27.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20kit%202%20ventiladores."}, {"slug": "kit-4-ventiladores", "title": "Kit com 4 Ventiladores", "category": "Ventilação", "page": "28", "img": "assets/produtos/page-28.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20kit%204%20ventiladores."}, {"slug": "pe-nivelador-m10", "title": "Pé Nivelador M10 com Fenda", "category": "Fixação", "page": "29", "img": "assets/produtos/page-29.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20pe%20nivelador%20m10."}, {"slug": "pe-nivelador-base", "title": "Pé Nivelador com Base", "category": "Fixação", "page": "30", "img": "assets/produtos/page-30.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20pe%20nivelador%20base."}, {"slug": "pe-nivelador", "title": "Pé Nivelador", "category": "Fixação", "page": "31", "img": "assets/produtos/page-31.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20pe%20nivelador."}, {"slug": "porca-gaiola", "title": "Porca Gaiola", "category": "Fixação", "page": "32", "img": "assets/produtos/page-32.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20porca%20gaiola."}, {"slug": "kit-porca-gaiola-m5-m6", "title": "Kit Porca Gaiola M5 e M6", "category": "Fixação", "page": "33", "img": "assets/produtos/page-33.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20kit%20porca%20gaiola%20m5%20m6."}, {"slug": "mini-rack", "title": "Mini Rack", "category": "Racks e Gabinetes", "page": "34", "img": "assets/produtos/page-34.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20mini%20rack."}, {"slug": "rack-piso-plus", "title": "Rack de Piso Plus", "category": "Racks e Gabinetes", "page": "35", "img": "assets/produtos/page-35.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20rack%20piso%20plus."}, {"slug": "rack-torre", "title": "Rack Torre", "category": "Racks e Gabinetes", "page": "35", "img": "assets/produtos/page-35.png", "wa": "https://wa.me/5511999884332?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20do%20produto%20rack%20torre."}];
-const grid = document.getElementById('grid'), search = document.getElementById('search'), category = document.getElementById('category'), empty = document.getElementById('empty');
-[...new Set(products.map(p=>p.category))].forEach(c=>category.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`));
+const products = [
+  ['bandeja-central','Bandeja Central','Bandejas e Organização','assets/produtos/bandeja-central.png'],
+  ['bandeja-fixa','Bandeja Fixa','Bandejas e Organização','assets/produtos/bandeja-fixa.png'],
+  ['bandeja-frontal','Bandeja Frontal','Bandejas e Organização','assets/produtos/bandeja-frontal.png'],
+  ['bandeja-movel','Bandeja Móvel','Bandejas e Organização','assets/produtos/bandeja-movel.png'],
+  ['cabo-centopeia','Cabo Centopeia','Energia e Conectividade','assets/produtos/cabo-centopeia.jpg'],
+  ['calha-com-disjuntor','Calha de Tomadas com Disjuntor','Energia e Conectividade','assets/produtos/calha-com-disjuntor.png'],
+  ['calha-com-fusivel','Calha de Tomadas com Fusível','Energia e Conectividade','assets/produtos/calha-com-fusivel.png'],
+  ['calha-de-tomada-grande','Calha de Tomadas Grande','Energia e Conectividade','assets/produtos/calha-de-tomada-grande.png'],
+  ['calha-de-tomada','Calha de Tomadas','Energia e Conectividade','assets/produtos/calha-de-tomada.png'],
+  ['calha-iec','Calha de Tomadas IEC','Energia e Conectividade','assets/produtos/calha-iec.png'],
+  ['dobradica-zamac','Dobradiça Semi-Embutida Zamak','Dobradiças','assets/produtos/dobradica-zamac.png'],
+  ['dobradicas','Dobradiça Semi-Embutida em Poliamida','Dobradiças','assets/produtos/dobradicas.png'],
+  ['fecho-11-a-22','Fecho Lingueta Regulável em Poliamida • Abertura 11–22 mm','Fechos','assets/produtos/fecho-11-a-22.png'],
+  ['fecho-lingueta-20mm','Fecho Lingueta Fenda 20mm','Fechos','assets/produtos/fecho-lingueta-20mm.png'],
+  ['fecho-lingueta-25mm','Fecho Lingueta Fenda 25mm','Fechos','assets/produtos/fecho-lingueta-25mm.png'],
+  ['fecho-regulavel-poliamida-90-graus','Fecho Lingueta Regulável em Poliamida • Abertura 10–28 mm','Fechos','assets/produtos/fecho-regulavel-poliamida-90-graus.png'],
+  ['fecho-regulavel-zamak-90-graus','Fecho Lingueta Regulável em Zamak • Abertura 10–28 mm','Fechos','assets/produtos/fecho-regulavel-zamak-90-graus.png'],
+  ['fecho-yale','Fecho Yale','Fechos','assets/produtos/fecho-yale.png'],
+  ['frente-falsa','Frente Falsa','Bandejas e Organização','assets/produtos/frente-falsa.png'],
+  ['guia-de-cabo-1u','Guia de Cabo 1U','Guias e Patch Panel','assets/produtos/guia-de-cabo-1u.png'],
+  ['guia-de-cabo-2u','Guia de Cabo 2U','Guias e Patch Panel','assets/produtos/guia-de-cabo-2u.png'],
+  ['guia-de-cabo-aberto','Guia de Cabo Aberto','Guias e Patch Panel','assets/produtos/guia-de-cabo-aberto.png'],
+  ['guia-de-cabo-com-tampa','Guia de Cabo com Tampa','Guias e Patch Panel','assets/produtos/guia-de-cabo-com-tampa.png'],
+  ['kit-2-ventiladores','Kit com 2 Ventiladores','Ventilação','assets/produtos/kit-2-ventiladores.png'],
+  ['kit-4-ventiladores','Kit com 4 Ventiladores','Ventilação','assets/produtos/kit-4-ventiladores.png'],
+  ['kit-de-fixacao-porca-gaiola','Kit de Fixação com Porca Gaiola','Fixação','assets/produtos/kit-de-fixação-porca-gaiola.png'],
+  ['pe-nivelador-com-base','Pé Nivelador com Base','Fixação','assets/produtos/pe-nivelador-com-base.png'],
+  ['pe-nivelador-com-fenda','Pé Nivelador M10 com Fenda','Fixação','assets/produtos/pe-nivelador-com-fenda.png'],
+  ['pe-nivelador','Pé Nivelador','Fixação','assets/produtos/pe-nivelador.png'],
+  ['pluf-2-pinos','Plug 2 Pinos','Energia e Conectividade','assets/produtos/pluf-2-pinos.jpg'],
+  ['plug-2p-t','Plug 2P+T','Energia e Conectividade','assets/produtos/plug-2p+t.jpg'],
+  ['plug-90-c13','Plug 90° C13','Energia e Conectividade','assets/produtos/plug-90°-c13.jpg'],
+  ['plug-c13','Plug C13','Energia e Conectividade','assets/produtos/plug-c13.jpg'],
+  ['plug-c14','Plug C14','Energia e Conectividade','assets/produtos/plug-c14.jpg'],
+  ['plug-c5','Plug C5','Energia e Conectividade','assets/produtos/plug-c5.jpg'],
+  ['plug-femea-c15','Plug Fêmea C15','Energia e Conectividade','assets/produtos/plug-femea-c15.jpg'],
+  ['plug-femea-c19','Plug Fêmea C19','Energia e Conectividade','assets/produtos/plug-femea-c19.jpg'],
+  ['porca-gaiola','Porca Gaiola','Fixação','assets/produtos/porca-gaiola.png'],
+  ['suporte-patch-panel','Suporte Patch Panel','Guias e Patch Panel','assets/produtos/suporte-patch-panel.png'],
+  ['tomadas','Tomadas','Energia e Conectividade','assets/produtos/tomadas.jpg']
+].map(([slug,title,category,img]) => ({slug,title,category,img}));
+
+const grid = document.getElementById('grid');
+const search = document.getElementById('search');
+const category = document.getElementById('category');
+const empty = document.getElementById('empty');
+
+[...new Set(products.map(p=>p.category))].sort().forEach(c=>category.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`));
+
 function render(){
- const q=search.value.toLowerCase().trim(), c=category.value;
- const list=products.filter(p=>(c==='Todos'||p.category===c)&&p.title.toLowerCase().includes(q));
- grid.innerHTML=list.map(p=>`<article class="product"><div class="product-img"><img src="${p.img}" alt="${p.title}" loading="lazy"></div><div class="product-body"><span class="tag">${p.category}</span><h3>${p.title}</h3><a class="quote" href="${p.wa}" target="_blank" rel="noopener">Solicitar cotação →</a></div></article>`).join('');
- empty.hidden=list.length!==0;
+  const q = search.value.toLowerCase().trim();
+  const c = category.value;
+  const list = products.filter(p => (c === 'Todos' || p.category === c) && p.title.toLowerCase().includes(q));
+
+  grid.innerHTML = list.map(p => {
+    const wa = 'https://wa.me/551199884332?text=' + encodeURIComponent('Olá, gostaria de solicitar uma cotação do produto ' + p.title + '.');
+    return `<article class="product"><div class="product-img"><img src="${p.img}" alt="${p.title}" loading="lazy"></div><div class="product-body"><span class="tag">${p.category}</span><h3>${p.title}</h3><a class="quote" href="${wa}" target="_blank" rel="noopener">Solicitar cotação →</a></div></article>`;
+  }).join('');
+
+  empty.hidden = list.length !== 0;
 }
-search.addEventListener('input',render); category.addEventListener('change',render); document.getElementById('year').textContent=new Date().getFullYear(); render();
+
+search.addEventListener('input', render);
+category.addEventListener('change', render);
+document.getElementById('year').textContent = new Date().getFullYear();
+render();
 </script>
-</body></html>
+</body>
+</html>
