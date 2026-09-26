@@ -1,4 +1,4 @@
-
+*{box-sizing:border-box}
 html{scroll-behavior:smooth}
 :root{--ink:#13212d;--dark:#0d1b25;--muted:#64727d;--line:#e2e8ec;--soft:#f5f7f8;--accent:#1b4058}
 body{margin:0;color:var(--ink);background:#fff;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
@@ -81,3 +81,66 @@ a{color:inherit;text-decoration:none}.wrap{width:min(1440px,calc(100% - 72px));m
 .quote:after{background:#edf4f7}
 .quote:hover:after{background:#245a7a;color:#fff}
 .hero .kicker,.section .kicker{color:#245a7a}
+
+/* AJUSTES V2.5 — cabeçalho, hero e cards */
+header img,
+.navbar img,
+.site-header img,
+.logo img {
+  max-height: 58px;
+  width: auto;
+}
+
+header .logo,
+.navbar .logo,
+.site-header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  min-height: 76px;
+}
+
+/* Hero: remover a composição abstrata de círculos */
+.hero-orbit {
+  display: none !important;
+}
+
+/* Se a composição estiver dentro de outro elemento, deixa a área limpa */
+.hero-visual {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Cards de produtos mais compactos depois da retirada das referências do catálogo */
+.product-card {
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.product-card .product-info,
+.product-card .card-body {
+  min-height: 145px !important;
+}
+
+.product-card .product-image,
+.product-card .image-wrap {
+  min-height: 210px !important;
+}
+
+.product-card .quote,
+.product-card .product-quote {
+  margin-top: 22px !important;
+}
+
+/* Reduz espaços verticais desnecessários na grade */
+.products-grid {
+  row-gap: 18px !important;
+}
+
+/* Mantém os cards limpos e claros */
+.product-card {
+  overflow: hidden;
+}
