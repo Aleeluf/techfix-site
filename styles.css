@@ -338,6 +338,14 @@ a{color:inherit;text-decoration:none}
   max-height:68%;
 }
 
+/* Ajuste fino dos três plugs horizontais que ocupam mais espaço visual */
+.product-img img[src*="pluf-2-pinos"],
+.product-img img[src*="plug-2p+t"],
+.product-img img[src*="plug-90"]{
+  max-width:62%;
+  max-height:58%;
+}
+
 .product-body{
   padding:22px 22px 23px;
   display:flex;
