@@ -79,7 +79,7 @@ const grid = document.getElementById('grid'), search = document.getElementById('
 function render(){
  const q=search.value.toLowerCase().trim(), c=category.value;
  const list=products.filter(p=>(c==='Todos'||p.category===c)&&p.title.toLowerCase().includes(q));
- grid.innerHTML=list.map(p=>`<article class="product"><div class="product-img"><img src="${p.img}" alt="${p.title}" loading="lazy"></div><div class="product-body"><span class="tag">${p.category}</span><h3>${p.title}</h3><p>Referência no catálogo: página ${p.page}.</p><a class="quote" href="${p.wa}" target="_blank" rel="noopener">Solicitar cotação →</a></div></article>`).join('');
+ grid.innerHTML=list.map(p=>`<article class="product"><div class="product-img"><img src="${p.img}" alt="${p.title}" loading="lazy"></div><div class="product-body"><span class="tag">${p.category}</span><h3>${p.title}</h3><a class="quote" href="${p.wa}" target="_blank" rel="noopener">Solicitar cotação →</a></div></article>`).join('');
  empty.hidden=list.length!==0;
 }
 search.addEventListener('input',render); category.addEventListener('change',render); document.getElementById('year').textContent=new Date().getFullYear(); render();
