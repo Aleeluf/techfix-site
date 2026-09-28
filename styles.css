@@ -302,7 +302,6 @@ a{color:inherit;text-decoration:none}
   box-shadow:0 18px 38px rgba(19,33,45,.10);
 }
 
-/* Área padronizada para todas as fotos */
 .product-img{
   height:260px;
   padding:28px;
@@ -316,7 +315,8 @@ a{color:inherit;text-decoration:none}
   overflow:hidden;
 }
 
-/* Limita o tamanho visual da foto sem deformar ou cortar */
+/* Correção: nenhuma categoria de produto recebe redução específica.
+   As imagens mantêm a proporção original e não são cortadas. */
 .product-img img{
   width:auto;
   height:auto;
@@ -329,22 +329,6 @@ a{color:inherit;text-decoration:none}
   transition:transform .2s;
 }
 .product:hover .product-img img{transform:scale(1.035)}
-
-/* Plugs têm arquivos com pouco espaço branco interno.
-   Esta regra reduz somente a escala visual deles. */
-.product-img img[src*="plug-"],
-.product-img img[src*="pluf-"]{
-  max-width:72%;
-  max-height:68%;
-}
-
-/* Ajuste fino dos três plugs horizontais que ocupam mais espaço visual */
-.product-img img[src*="pluf-2-pinos"],
-.product-img img[src*="plug-2p+t"],
-.product-img img[src*="plug-90"]{
-  max-width:62%;
-  max-height:58%;
-}
 
 .product-body{
   padding:22px 22px 23px;
@@ -509,7 +493,6 @@ a{color:inherit;text-decoration:none}
   filter:brightness(1.04);
 }
 
-/* Mantém compatibilidade caso existam classes antigas no HTML */
 .product-card{
   min-height:0!important;
   height:auto!important;
@@ -523,7 +506,6 @@ a{color:inherit;text-decoration:none}
 .product-card .product-quote{margin-top:22px!important}
 .products-grid{row-gap:18px!important}
 
-/* Ajustes do cabeçalho */
 header img,
 .navbar img,
 .site-header img,
@@ -539,7 +521,6 @@ header .logo,
 }
 header{min-height:76px}
 
-/* Responsividade */
 @media (min-width:1181px){
   .wrap{width:min(1440px,calc(100% - 72px))}
   .hero{padding:128px 0 112px}
@@ -582,11 +563,6 @@ header{min-height:76px}
     max-width:86%;
     max-height:80%;
   }
-  .product-img img[src*="plug-"],
-  .product-img img[src*="pluf-"]{
-    max-width:70%;
-    max-height:66%;
-  }
 }
 
 @media (max-width:820px){
@@ -603,11 +579,6 @@ header{min-height:76px}
   .product-img img{
     max-width:86%;
     max-height:80%;
-  }
-  .product-img img[src*="plug-"],
-  .product-img img[src*="pluf-"]{
-    max-width:68%;
-    max-height:64%;
   }
 }
 
@@ -660,11 +631,6 @@ header{min-height:76px}
   .product-img img{
     max-width:88%;
     max-height:80%;
-  }
-  .product-img img[src*="plug-"],
-  .product-img img[src*="pluf-"]{
-    max-width:66%;
-    max-height:62%;
   }
   .product-body{
     padding:19px 18px 20px;
