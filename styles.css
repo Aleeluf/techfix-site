@@ -258,6 +258,11 @@ a{color:inherit;text-decoration:none}
   padding-top:05px;
 }
 .section.light{background:var(--soft)}
+
+#empresa.section.light{
+  padding:45px 0;
+}
+
 .section-head{
   display:flex;
   justify-content:space-between;
