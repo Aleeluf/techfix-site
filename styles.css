@@ -1005,3 +1005,20 @@ header{min-height:76px}
   padding-top:65px;
   padding-bottom:65px;
 }
+
+/* ===== COMPACTAÇÃO DAS SEÇÕES FINAIS ===== */
+
+.about{
+  padding-top:55px;
+  padding-bottom:55px;
+}
+
+.contact{
+  padding-top:55px;
+  padding-bottom:55px;
+}
+
+.footer{
+  min-height:65px;
+  padding:14px 0;
+}
