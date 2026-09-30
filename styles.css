@@ -990,3 +990,8 @@ header{min-height:76px}
     width:100%;
   }
 }
+
+/* Remove a faixa entre o Hero e os Produtos */
+.trust {
+  display: none !important;
+}
