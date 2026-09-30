@@ -251,6 +251,9 @@ a{color:inherit;text-decoration:none}
 .trust span{font-size:11px;color:#74818a}
 
 .section{padding:108px 0}
+#produtos.section{
+  padding-top:50px;
+}
 .section.light{background:var(--soft)}
 .section-head{
   display:flex;
